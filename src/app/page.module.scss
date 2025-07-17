@@ -1,0 +1,27 @@
+.header {
+  background-color: var(--mui-palette-primary-light);
+  height: 80px;
+  display: flex;
+  padding: 19px 32px;
+}
+
+.container {
+	@media (min-width: 1200px) {
+		display: grid;
+		grid-template-columns: 1fr 480px;
+	}
+}
+
+.wrapper {
+  padding: 1.5rem 2rem;
+  height: calc(100vh - 112px);
+  background-color: var(--mui-palette-background-default);
+}
+
+.footer {
+  background-color: #4F4F4F;
+  height: 2rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}

@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  min-height: calc(100vh - 112px);
+  padding: 0;
+  max-width: inherit;
+  margin: 0;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.tableContainer {
+  flex: 1;
+  max-height: calc(100vh - 300px);
+  overflow: auto;
+}
+
+.tableRow {
+  cursor: pointer;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.repoName {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.countCell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+

@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+  align-items: center;
+  align-self: center;
+}
+
+.searchInput {
+  flex: 1;
+  background-color: var(--mui-palette-background-default);
+  max-width: 912px;
+  border-radius: 4px;
+}

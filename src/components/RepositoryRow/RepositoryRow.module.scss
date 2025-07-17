@@ -1,0 +1,23 @@
+.tableRow {
+  cursor: pointer;
+  
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.repoName {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.countCell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.languageChip {
+  --chip-bg: #eee;
+  background-color: var(--chip-bg) !important;
+}

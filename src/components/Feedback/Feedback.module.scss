@@ -1,0 +1,9 @@
+.container {
+  --mui-palette-Alert-errorStandardBg: var(--mui-palette-background-default);
+  height: calc(100vh - 112px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mui-palette-background-default);
+
+}
